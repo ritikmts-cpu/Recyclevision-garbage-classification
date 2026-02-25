@@ -119,5 +119,4 @@ RecycleVision- Garbage Image Classification/
 6.4. Launch the Streamlit app
 streamlit run app.py
 
-![App Screenshot](screenshots/app_home.png)
 
