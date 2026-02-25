@@ -96,22 +96,20 @@ reported in the literature, so these results are competitive with published work
 ## 6. How to Run Locally
 
 ### 6.1. Clone the repository
-
 ```bash
 git clone <repo-url>
 cd "RecycleVision- Garbage Image Classification"
 
 6.2. Create a virtual environment and install dependencies
-
 python -m venv venv
-venv\Scripts\activate  # on Windows
+venv\Scripts\activate 
 
 pip install -r requirements.txt
 
 6.3. Project structure
 RecycleVision- Garbage Image Classification/
 │
-├─ Data/                 # (optional, used for training)
+├─ Data/                
 ├─ Models/
 │   └─ recyclevision_mobilenetv2.keras
 ├─ notebook/
@@ -120,3 +118,6 @@ RecycleVision- Garbage Image Classification/
 
 6.4. Launch the Streamlit app
 streamlit run app.py
+
+![App Screenshot](screenshots/app_home.png)
+
